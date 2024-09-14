@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="flex justify-between p-3 bg-white items-center pt-4">
+        <div>
+            <a href="" class="flex items-center gap-3">
+                <img src="../asset/img/asset 0.png" alt="" class="object-cover max-w-12 max-h-12">
+                <p class="font-semibold text-xl font-display">ToDesktop</p>
+            </a>
+        </div>
+        <div class="hidden md:block">
+            <ul class="flex gap-7 font-semibold  text-xl">
+                <li><a href="" class="hover:text-[#3238f2]">Pricing</a></li>
+                <li><a href="" class="hover:text-[#3238f2]">Docs</a></li>
+                <li><a href="" class="hover:text-[#3238f2]">Changelog</a></li>
+                <li><a href="" class="hover:text-[#3238f2]">Blog</a></li>
+                <li><a href="" class="hover:text-[#3238f2]">Login</a></li>
+            </ul>
+        </div>
+        <div class="hidden md:block">
+            <button class="border border-gray-300 px-5 py-3 rounded-lg">
+               <a href="" class="flex items-center gap-2">
+                <img src="../asset/img/asset 1.svg" alt="">
+                <p class="font-semibold text-lg">Electron Developer</p>
+                <i class="fa-solid fa-arrow-right-long text-gray-500"></i>
+               </a>
+            </button>
+        </div>
+        <!-- responsive menu -->
+       <button class="text-gray-500 p-2 md:hidden" onclick="handleManu()">
+        <i class="fa-solid fa-bars"></i>
+       </button>
+
+       <div class="inset-0 fixed  bg-red-500 justify-between p-3">
+          <div class=" flex justify-between">
+            <a href="" class="flex items-center  gap-3">
+              <img src="../asset/img/asset 0.png" alt="" class="object-cover max-w-12 max-h-12">
+              <p class="font-semibold text-xl font-display">ToDesktop</p>
+          </a>
+          <button class="text-gray-500 p-2 md:hidden" onclick="handleManu()">
+            <i class="fa-solid fa-bars"></i>
+           </button>
+          </div>
+       </div>
+       <div>
+        <ul class="flex gap-7 font-semibold  text-xl">
+            <li><a href="" class="hover:text-[#3238f2]">Pricing</a></li>
+            <li><a href="" class="hover:text-[#3238f2]">Docs</a></li>
+            <li><a href="" class="hover:text-[#3238f2]">Changelog</a></li>
+            <li><a href="" class="hover:text-[#3238f2]">Blog</a></li>
+            <li><a href="" class="hover:text-[#3238f2]">Login</a></li>
+        </ul>
+       </div>
+    </div>
+    
+   
+  </nav>
+</body>
+</html>
